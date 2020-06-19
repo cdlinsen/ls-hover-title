@@ -5,14 +5,14 @@ title美化 修改浏览器对标签的默认title渲染样式
 # install
 
 
-​```js script
+```javascript
 npm install ls-hover-title
-​```
+```
 
 #Usage
 
-​```js script
+```javascript
 import HoverTitle from "../src/index";
 
 <HoverTitle />
-​```
+```
