@@ -1,0 +1,35 @@
+{
+    "name": "ls-hover-title",
+    "version": "1.0.2-0",
+    "description": "替换html标签默认的title属性，实现title效果优化",
+    "author": "cdlinsen",
+    "files": [
+        "lib",
+        "es"
+    ],
+    "scripts": {
+        "start": "docz dev",
+        "dev": "webpack-dev-server",
+        "build": "father build",
+        "pub": "father build&&npm run pub-pro",
+        "doc": "docz dev",
+        "docb": "docz build",
+        "pub-beta": "father build&&npm version prerelease &&npm publish --tag beta",
+        "pub-pro": "father build&&npm version patch &&npm publish"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "docz-plugin-css": "^0.11.0",
+        "docz-theme-default": "^1.2.0",
+        "eslint": "^7.2.0",
+        "eslint-plugin-react": "^7.20.0",
+        "father": "^2.29.3"
+    },
+    "dependencies": {
+        "css-loader": "^3.5.3",
+        "jquery": "^3.5.1",
+        "markdown-loader": "^5.1.0",
+        "numeral": "^2.0.6",
+        "style-loader": "^1.2.1"
+    }
+}
